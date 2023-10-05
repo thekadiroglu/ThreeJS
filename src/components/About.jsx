@@ -33,8 +33,7 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
       As a 19-year-old, I love using a computer. That's exactly why I started my curiosity about software. I know how to use most applications, and I learn what I don't know right away. I love chatting with my friends, I am a friendly personality. I also love learning new things. I get busy with things like English, new software languages, web series, etc.
       </motion.p>
-
-      <div className='mt-20 flex lex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap justify-center gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

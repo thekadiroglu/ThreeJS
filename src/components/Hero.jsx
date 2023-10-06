@@ -18,6 +18,7 @@ const Hero = () => {
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           Ben bir yazılımcıyım.
           </p>
+          <span className='w-[15px]'>(Bu bir test versiyonudur. Kararlı sürümü çok yakında..)</span>
         </div>
       </div>
         <ComputersCanvas/>
